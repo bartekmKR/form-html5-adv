@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz HTML5 adv</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <form action="https://formspree.io/bartosz.maciolek@com2.pl" method="POST">
+
+        <fieldset>
+            <legend>Customer info:</legend>
+            <label for="name">Username:</label> <input type="text" name="name" id="name" required autofocus placeholder="Enter your name"><br>
+            <label for="phone">Telephone:</label> <input type="tel" name="phone" id="phone" required placeholder="Pattern: 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+            <label for="email">Email address:</label> <input type="email" multiple name="email" id="email" required placeholder="Enter your email address"><br>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Books:</legend>
+            <select name="bookNumber" required>
+                <option value=""> </option>
+                <option value="1">First book</option>
+                <option value="2">Second book</option>
+                <option value="3">Third book</option>
+                <option value="4">Fourth book</option>
+                <option value="5">Fifth book</option>
+                <option value="6">Sixth book</option>
+                
+            </select>
+            <label for="books">Quantity (Maximum 5):</label> <input type="number" name="numberOfBooks" id="books" min="1" max="5"><br>
+
+
+
+        </fieldset>
+        <button type="submit" value="Send">Submit</button>
+    </form>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	background-color: #fff;
+}
+
+
+form {
+	color: #000;
+	padding: 20px;
+	width: 600px;
+}
+
+
+
+form input,
+form select {
+	margin-bottom: 10px;
+
+}
+
+form label {
+	display: block;
+}
+
+
+
+form input,
+form select {
+	width: 350px;
+	height: 25px;
+	background-color: #eef1f3;
+	color: #000;
+	border: 1px solid #000;
+}
+
+form input[type="number"] {
+	width: 100px;
+}
+
+form input:focus, select:focus {
+	background-color: #eef1f3;
+	border: 1px solid #fa0101;
+	outline: none;
+}
+
+form button {
+	background-color: #1a60c0;
+	display: block;
+	color: #fff;
+	padding: 10px;
+
+}
